@@ -7,17 +7,18 @@ assignees: ''
 
 ---
 
-**As a** [role]  
- **I need** [function]  
- **So that** [benefit]  
+**As a** User  
+ **I need** To view a counter  
+ **So that** I know the current status
    
  ### Details and Assumptions
- * [document what you know]
+ * there is a counter available
+ * counters are numeric
    
  ### Acceptance Criteria  
    
  ```gherkin
- Given [some context]
- When [certain action is taken]
- Then [the outcome of action is observed]
+ Given the need to have status control
+ When the supervisor asks
+ Then the screen should show the current count
  ```
